@@ -3,7 +3,7 @@ import org.testng.annotations.Test;  //фреймворк - набор инст�
 
 public class MainTest {
 
-    @Test
+    @Test //аннотация. используется как маркер, что это тест.
     void testGetSum() {
         int result;
 
